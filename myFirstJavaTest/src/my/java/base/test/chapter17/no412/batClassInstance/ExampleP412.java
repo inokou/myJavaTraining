@@ -4,6 +4,7 @@ public class ExampleP412 {
     /* これは正しい */
     Class<Car> carClass1 = Car.class;
     /* TruckクラスはCarクラスと継承関係がないのでコンパイルエラー */
-    Class<Truck> carClass2 = Car.class;
+    //Class<Truck> carClass2 = Car.class;
+    Class<Car> carClass2 = Car.class;
   }
 }
